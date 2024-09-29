@@ -4,11 +4,20 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 // import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am an enthusiastic full stack developer who enjoys building strong and scalable web applications. With years of experience, I have developed skills in HTML, C, CSS, JavaScript, React, and MySQL, as well as working with Excel. My goal is to use my knowledge to create creative solutions that help businesses grow and provide great experiences for users.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+.`;
+
+export const ABOUT_TEXT = `I am constantly eager to learn new technologies and adapt to evolving challenges in the tech industry. I thrive in collaborative environments, enjoy solving complex problems, and am always looking for ways to expand my knowledge.Whether it's exploring new frameworks, improving my coding practices, or learning about the latest industry trends.I actively seek opportunities for growth, both through hands-on experience and through continuous learning, ensuring that I can bring innovative and effective solutions to every project I work on.`;
 
 export const EXPERIENCES = [
+  {
+    year: "On going Project",
+    role: "Read File for Delivery Documentation",
+    company: "Business Report",
+    description: `Creating a delivery report by reading a CSV file, which will then be sent to the database. This process enables us to calculate business profit and track the quantity of items ordered.`,
+    technologies: ["SQL Server","Excel","Jupyter Notebook","Visual Paradigm"],
+  },
   {
     year: "2024",
     role: "Portofolio Web",
@@ -52,28 +61,31 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS","SQL Server"],
+    link: "https://www.figma.com/proto/QBaA5epR7ru3UoHMFyvkvq/TaniBoen?node-id=444-1390&starting-point-node-id=444%3A1390",
   },
   {
     title: "Web Design",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "In my web design projects, I focus on creating visually appealing and user-friendly websites that enhance the overall user experience. Each project involves careful consideration of layout, color schemes, typography, and imagery to ensure a cohesive and engaging design",
+    technologies: ["HTML", "CSS", "JavaScript", "Figma"],
+    link:"https://www.figma.com/proto/qUHta2oid3hfA0SjPZNoXw/Project-Jam?node-id=2-29&node-type=canvas&t=LTtDMCfpxP4fbhbe-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind"],
   },
   {
     title: "Data Analytics",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A scientific study focused on analyzing sequences of data by comparing various machine learning methods to achieve optimal accuracy",
+    technologies: ["ipynb", "Jupyter Notebook","mySQL"],
+    link:"https://colab.research.google.com/drive/1zfjqVsEVwZe9GsaSA__5J6TQICxEIW4j#scrollTo=JReXXYW_TmJk",
   },
 ];
 

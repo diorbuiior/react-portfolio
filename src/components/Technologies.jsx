@@ -1,8 +1,12 @@
 import {RiReactjsLine} from "react-icons/ri";
-import {TbBrandNextjs} from "react-icons/tb";
-import {SiMongodb} from "react-icons/si";
-import {DiRedis} from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
 import {FaNodeJs} from "react-icons/fa";
+import { SiXampp } from "react-icons/si";
+import { FaFileExcel } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { SiVmware } from "react-icons/si";
+import { SiCisco } from "react-icons/si";
+
 
 
 
@@ -17,17 +21,30 @@ const Technologies = () => {
             <RiReactjsLine className="text-7xl text-cyan-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <TbBrandNextjs className="text-7xl text-white-400" />
-        </div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
             <FaNodeJs className="text-7xl text-green-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <DiRedis className="text-7xl text-red-400" />
+            <SiXampp className="text-7xl text-orange-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiMongodb className="text-7xl text-green-400" />
+            <FaFileExcel className="text-7xl text-green-400" />
         </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <IoLogoJavascript className="text-7xl text-yellow-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <FaHtml5 className="text-7xl text-red-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiVmware className="text-7xl text-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiCisco className="text-7xl text-400" />
+        </div>
+
+
+        
+
     </div>
   </div>
   );
