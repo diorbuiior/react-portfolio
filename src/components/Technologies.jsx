@@ -6,7 +6,7 @@ import { FaFileExcel } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { SiVmware } from "react-icons/si";
 import { SiCisco } from "react-icons/si";
-import {motion} from "framer-motion";
+import {motion} from "/framer-motion";
 
 
 const icon = (duration) =>({
