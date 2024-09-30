@@ -1,5 +1,5 @@
 import { PROJECTS } from "../constants";
-import {motion} from "/framer-motion";
+import {motion} from "git framer-motion";
 
 
 const Projects = () => {
