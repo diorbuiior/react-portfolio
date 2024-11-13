@@ -1,4 +1,4 @@
-import logo from "../assets/kevinRushLogo.png";
+// import logo from "../assets/kevinRushLogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -8,7 +8,7 @@ const Navbar = () =>{
     return (
     <nav className=" mb-20 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
-            <div className="mx-2 w-11 font-bold">dior</div>
+            <div className="mx-2 w-11 font-bold">DIOR</div>
         </div>
         <div className="m-8 flex items-center justify-center gap-4">
             <a href="https://www.linkedin.com/in/adior-gandawidjaja-8212ab293/" target="_blank"><FaLinkedin /></a>
